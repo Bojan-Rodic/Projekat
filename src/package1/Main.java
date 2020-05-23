@@ -1,9 +1,10 @@
 package package1;
 
-public class Main {
+public class Main{
 
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+		Login main = new Login();
+		main.setVisible(true);
 	}
 
 }
